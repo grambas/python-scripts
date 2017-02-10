@@ -5,7 +5,7 @@ import urllib
 
 
 def record():
-    sourcePath ='https://tv3sportozona.data.lt/2barai1/smil:2barai.smil/chunklist_w26425534_b1572864.m3u8'
+    sourcePath ='https://url.m3u8'
     name = '_video.ts'
 
     destPath = time.strftime("%Y-%m-%d_%H-%M-%S", time.gmtime()) + name

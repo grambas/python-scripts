@@ -3,7 +3,6 @@ import time
 import subprocess as sp, sys
 import urllib
 
-
 def record():
     sourcePath ='https://url.m3u8'
     name = '_video.ts'
